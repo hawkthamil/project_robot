@@ -1,0 +1,132 @@
+.face{
+    border: 2px;
+    background-color:brown;
+    height: 110px;
+    width: 140px;
+    border-radius: 50px 50px 0px 0px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    
+}
+.eye1{
+    border: 2px;
+    background-color:rgb(13, 230, 211);
+    height: 20px;
+    width: 30px;
+    border-radius: 100%;
+    position:absolute;
+    top: 38px;
+    left: 10px;
+
+}
+.innereye1{
+    border: 2px;
+    background-color:red;
+    height: 10px;
+    width: 30px;
+    border-radius: 100%;
+    position:absolute;
+    top: 10px;
+}
+.eye2{
+    border: 2px;
+    background-color:rgb(13, 230, 211);
+    height: 20px;
+    width: 30px;
+    border-radius: 100%;
+    position:absolute;
+    top: 38px;
+    left: 95px;
+
+}
+.innereye2{
+    border: 2px;
+    background-color:red;
+    height: 10px;
+    width: 30px;
+    border-radius: 100%;
+    position:absolute;
+    top: 10px;
+}
+.mouth{
+    border: 2px;
+    background-color:rgb(13, 230, 211);
+    height: 10px;
+    width: 50px;
+    border-radius: 100%;
+    position:absolute;
+    top: 90px;
+    left: 45px;
+}
+.body{
+    border: 2px;
+    background-color: brown;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 105px;
+    left: 145px;
+}
+.leg1{
+    border: 2px;
+    background-color:brown;
+    height: 130px;
+    width: 30px;
+    border-radius: 10%;
+    position:relative;
+    top: 120px;
+    left: 150px;   
+}
+.leg2{
+    border: 2px;
+    background-color:brown;
+    height: 130px;
+    width: 30px;
+    border-radius: 10%;
+    position:relative;
+    left: 260px;
+    bottom: 9px;
+}
+.hand1{
+    border: 2px;
+    background-color:brown;
+    height: 130px;
+    width: 30px;
+    border-radius: 10%;
+    position:relative;
+    bottom: 420px;
+    left: 100px;
+    transform-origin: bottom;
+    animation:movehand1 10s infinite;      
+}
+.hand2{
+    border: 2px;
+    background-color:brown;
+    height: 130px;
+    width: 30px;
+    border-radius: 10%;
+    position:relative;
+    bottom: 412px;
+    left: 309px;     
+}
+@keyframes movehand1 {
+    0%
+    {transform: rotate3d(0deg);}
+    25%
+    {transform: rotate(20deg);}
+    50%{
+        transform: rotate(-20deg);
+    }
+}
+h1{
+    background-color: aqua;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    height: 40px;
+    width: 45px;
+}
+body{
+    background-color: black;
+}
